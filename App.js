@@ -25,7 +25,7 @@ export default function App() {
           tabBarActiveTintColor: "tomato",
           tabBarInactiveTintColor:"gray"
       })}>
-        <Tab.Screen name='Home' component={HomePage} />
+        <Tab.Screen name='Home' component={HomePage} options={{headerShown:false}} />
         <Tab.Screen name='Settings' component={SettingsPage} options={{tabBarBadge:3,title:"Cart"}}/>
       </Tab.Navigator>
    </NavigationContainer>
